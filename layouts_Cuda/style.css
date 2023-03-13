@@ -8,6 +8,7 @@ a {
 }
 .header {
   background-color: #87509c;
+  height: 860px;
 }
 .header__container {
   padding: 60px 150px 150px 150px;
@@ -48,7 +49,7 @@ a {
   color: rgb(247, 243, 234);
   font-weight: bold;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 250px;
   margin: 0 70px;
 }
 .item__button {
@@ -462,8 +463,191 @@ a {
   fill: white;
   mix-blend-mode: difference;
 }
-
 .up_button1:hover {
   transition: 300ms;
   fill: black;
+}
+
+.section__sayaboutus {
+  background-color: #d74680;
+  height: 900px;
+}
+.sayaboutus__container {
+  padding: 120px 150px 130px 150px;
+}
+.sayaboutus__text {
+  text-align: center;
+}
+.sayaboutus__text-title {
+  font-size: 40px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.sayaboutus__text-hr {
+  height: 4px;
+  width: 90px;
+  margin: 20px auto 25px auto;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+}
+.sayaboutus__text-caption {
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  margin-bottom: 70px;
+}
+.sayaboutus__card-row {
+  display: flex;
+  justify-content: center;
+}
+#sayaboutus__card-row1 {
+  margin-bottom: 150px;
+}
+.sayaboutus__card-card {
+  display: flex;
+  width: calc(100% / 2);
+}
+.sayaboutus__card-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 50px;
+}
+#sayaboutus__card-card-caption1 {
+  width: 330px;
+}
+#sayaboutus__card-card-caption2 {
+  width: 330px;
+}
+#sayaboutus__card-card-caption3 {
+  width: 330px;
+}
+#sayaboutus__card-card-caption4 {
+  width: 370px;
+}
+.sayaboutus__card-card-avatar {
+  border-radius: 50%;
+  background-color: rgb(120, 120, 120);
+  width: 96px;
+  height: 96px;
+  aspect-ratio: 1;
+}
+.sayaboutus__card-card-caption {
+  font-size: 17.5px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.sayaboutus__card-card-name {
+  font-size: 24px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.sayaboutus__card-card-founder {
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 221, 153);
+}
+
+
+.section__getintouch {
+  background-color: #3c5499;
+  height: 860px;
+}
+.getintouch__container {
+  padding: 120px 150px 110px 150px;
+}
+.getintouch__text {
+  text-align: center;
+}
+.getintouch__text-title {
+  font-size: 40px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.getintouch__text-hr {
+  background-color: rgb(39, 58, 113);
+  width: 90px;
+  height: 4px;
+  margin: 20px auto 20px auto;
+}
+.getintouch__text-caption {
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+.etintouch__content_NE {
+  display: flex;
+  justify-content: center;
+}
+.getintouch__content_NE-c {
+  border-radius: 4px;
+  background-color: rgb(39, 58, 113);
+  width: 415px;
+  height: 56px;
+  color: white;
+  font-family: "Titillium Web";
+  border: none;
+  margin-bottom: 30px;
+}
+.getintouch__content_NE-email {
+  margin-left: 18px;
+}
+.getintouch__content_YM {
+  display: flex;
+  justify-content: center;
+}
+.getintouch__content_YM-textarea {
+  border-radius: 4px;
+  background-color: rgb(39, 58, 113);
+  width: 860px;
+  height: 200px;
+  color: white;
+  font-family: "Titillium Web";
+  border: none;
+  margin-bottom: 60px;
+}
+
+.getintouch__content-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 293px;
+  height: 70px;
+  position: relative;
+  background-color: #30bae7;
+  transition: 300ms;
+
+  margin: 0 auto 0 auto;
+
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.getintouch__content-button:hover {
+  cursor: pointer;
+  background: #299dc4;
+  transition: 300ms;
+}
+.getintouch__content-button-shadow {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+  bottom: 0;
 }
