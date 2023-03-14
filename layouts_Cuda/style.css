@@ -8,7 +8,7 @@ a {
 }
 .header {
   background-color: #87509c;
-  height: 860px;
+  height: 940px;
 }
 .header__container {
   padding: 60px 150px 150px 150px;
@@ -49,7 +49,7 @@ a {
   color: rgb(247, 243, 234);
   font-weight: bold;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 300px;
   margin: 0 70px;
 }
 .item__button {
@@ -651,3 +651,38 @@ a {
   opacity: 0.149;
   bottom: 0;
 }
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #344b8e;
+}
+.footer__conainer {
+  padding: auto 150px auto 150px;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content-list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer__content-list1-link {
+  font-size: 24px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: 300ms;
+}
+.footer__content-list1-link:hover {
+  color: #30bae7;
+  transition: 300ms;
+}
+.footer__content-list1 + .footer__content-list1 {
+  margin-left: 60px;
+}
+
+
